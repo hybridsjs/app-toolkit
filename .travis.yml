@@ -1,0 +1,11 @@
+sudo: required
+dist: trusty
+language: node_js
+node_js: stable
+
+notifications:
+  email: false
+
+script: 
+  - npm run test
+  - npm run coveralls

@@ -1,0 +1,8 @@
+/coverage
+/node_modules
+/test
+*.log
+karma.conf.js
+webpack.config.js
+.vscode
+.travis.yml
